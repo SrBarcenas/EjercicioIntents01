@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ThirdActivity">
 
-
     <EditText
         android:id="@+id/editTextWeb"
         android:layout_width="wrap_content"
@@ -24,6 +23,82 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@android:drawable/ic_menu_view"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextWeb"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonEmail"
+        android:layout_alignBottom="@+id/editTextEmail"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_email"/>
+
+    <EditText
+        android:id="@+id/editTextEmailComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonEmailComplete"
+        android:layout_alignBottom="@+id/editTextEmailComplete"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_manage"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmailComplete"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonPhone"
+        android:layout_alignBottom="@+id/editTextPhone"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_call"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhone"
+        android:layout_centerHorizontal="true"
+        android:ems="15"
+        />
+
+    <ImageButton
+        android:id="@+id/buttonPhoneCall"
+        android:layout_alignBottom="@+id/editTextPhoneCall"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_media_play"/>
+
+    <ImageButton
+        android:id="@+id/buttonContact"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:src="@android:drawable/ic_menu_agenda"
+        android:layout_above="@+id/buttonCamera"
+        android:background="#0000FF"/>
 
     <ImageButton
         android:id="@+id/buttonCamera"
